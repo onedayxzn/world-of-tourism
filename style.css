@@ -1,0 +1,279 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./image/cloud1.png);
+}
+
+h1 {
+  margin: 2%;
+  font-size: 42px;
+  font-family: fantasy;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 24px;
+  text-align: center;
+}
+#logo {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.logo {
+  padding-left: 10px;
+  margin-right: 550px;
+  height: 100px;
+}
+
+.Navbar {
+  background-color: transparent;
+  height: 110px;
+  color: #ffcf01;
+  font-size: 20px;
+  text-align: left;
+  display: block;
+  position: sticky;
+  z-index: 2;
+  top: 0%;
+}
+
+#linkNavbar {
+  align-items: center;
+  margin-right: 50px;
+  display: flex;
+}
+
+#linkNavbar a {
+  padding: 10px;
+  top: 0%;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 2px gray;
+  background-color: transparent;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.Navbar a {
+  font-size: 24px;
+  margin: 1%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#conteks {
+  margin: 2%;
+  position: relative;
+}
+
+.container {
+  display: flex;
+}
+
+.intro {
+  align-items: center;
+}
+
+.intro1 {
+  height: 250px;
+  width: 600px;
+  padding: 10px;
+  margin-top: 125px;
+}
+
+#vacation {
+  margin: 2rem;
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  box-shadow: 0px 0px 5px 5px #3a8bc2;
+}
+
+.button-telusur {
+  margin-top: 20px;
+  width: 200px;
+  height: 30px;
+  font-size: 24px;
+  margin-left: 32%;
+  border-top: solid 5px #578910;
+  background-color: #ffcf01;
+  color: white;
+  border-radius: 40px;
+}
+
+.button-telusur a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  margin-left: 35px;
+}
+
+.button-visit {
+  margin-top: 20px;
+  width: 150px;
+  height: 30px;
+  font-size: 24px;
+  margin-left: 30%;
+  border-top: solid 5px #578910;
+  background-color: #ffcf01;
+  color: white;
+  border-radius: 40px;
+  text-align: center;
+}
+
+.button-visit a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  margin-left: px;
+}
+
+.button-visit1 {
+  margin-top: 20px;
+  width: 150px;
+  height: 35px;
+  font-size: 24px;
+  margin-left: 30%;
+  border-top: solid 5px #578910;
+  background-color: #ffcf01;
+  border-radius: 40px;
+  text-align: center;
+}
+
+.button-visit1 a {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+  margin-bottom: 2px;
+}
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+
+.card {
+  margin-left: 10px;
+  width: 400px;
+  height: 500px;
+  background-color: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top: solid 2px red;
+  box-shadow: 10px 5px 0px 5px rgba(61, 59, 59, 0.623);
+}
+
+.image {
+  height: 170px;
+}
+
+.text-caption {
+  margin: 1rem;
+  font-size: 16px;
+  text-align: justify;
+  font-family: sans-serif;
+}
+
+.card-title {
+  font-size: 32px;
+  font-family: fantasy;
+  margin-top: 5px;
+  text-align: center;
+}
+
+#Australia {
+  font-size: 14px;
+}
+
+#north-korea {
+  font-size: 14px;
+}
+
+.card1 {
+  margin-top: 1%;
+  margin-left: 34%;
+  width: 400px;
+  height: 500px;
+  background-color: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top: solid 2px red;
+  box-shadow: 10px 5px 0px 5px rgba(61, 59, 59, 0.623);
+  margin-bottom: 2%;
+}
+
+.image1 {
+  height: 170px;
+}
+
+.text-caption1 {
+  margin: 1rem;
+  font-size: 16px;
+  text-align: justify;
+  font-family: sans-serif;
+}
+
+.card-title1 {
+  font-size: 32px;
+  font-family: fantasy;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.text-me {
+  font-size: 16px;
+  text-align: start;
+}
+
+.col-4:hover .card .image {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+.intro:hover img {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
